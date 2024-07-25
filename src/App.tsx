@@ -30,17 +30,17 @@ export default function Home() {
 
   let filteredData = data;
 
-  // if (filters.length > 0) {
-  //   filters.forEach((filter) => {
-  //     filteredData = filteredData.filter(
-  //       (job) =>
-  //         job.role === filter ||
-  //         job.level === filter ||
-  //         job.languages.includes(filter) ||
-  //         job.tools.includes(filter),
-  //     );
-  //   });
-  // }
+  if (filters.length > 0) {
+    filters.forEach((filter) => {
+      filteredData = filteredData.filter(
+        (job) =>
+          job.role === filter ||
+          job.level === filter ||
+          job.languages.includes(filter) ||
+          job.tools.includes(filter),
+      );
+    });
+  }
 
   return (
     <div className="w-full">
