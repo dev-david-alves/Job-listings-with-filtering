@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# A job listings with filtering project
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) <br />
+I did this project to pratice React useState managment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Desktop with no filters
+<img src="https://github.com/dev-david-alves/Job-listings-with-filtering/blob/main/src/design/desktop-design.jpg" alt="Desktop with no filters" style="height: auto; width:600px;"/>
 
-Currently, two official plugins are available:
+### Desktop with filters
+<img src="https://github.com/dev-david-alves/Job-listings-with-filtering/blob/main/src/design/active-states.jpg" alt="Desktop with filters" style="height: auto; width:600px;"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Mobile with no filters
+<img src="https://github.com/dev-david-alves/Job-listings-with-filtering/blob/main/src/design/mobile-design.jpg" alt="Mobile with no filters" style="height: auto; width:400px;"/>
 
-## Expanding the ESLint configuration
+### Mobile with filters
+<img src="https://github.com/dev-david-alves/Job-listings-with-filtering/blob/main/src/design/mobile-with-filters.jpg" alt="Mobile with filters" style="height: auto; width:400px;"/>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json", "./tsconfig.app.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
