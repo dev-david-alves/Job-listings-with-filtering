@@ -43,7 +43,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full">
+    <>
       <Header>
         {filters.length > 0 && (
           <Filter filters={filters} setFilters={setFilters} />
@@ -60,6 +60,6 @@ export default function Home() {
             <Job job={job} key={job.id} setFilters={setFilters} />
           ))}
       </main>
-    </div>
+    </>
   );
 }
