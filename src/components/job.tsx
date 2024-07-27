@@ -28,7 +28,7 @@ export default function Job({ job, setFilters }: JobProps) {
     <div className="flex w-full min-w-full flex-col items-center justify-between gap-6 rounded-[5px] border-l-4 border-primary bg-white px-7 py-8 shadow-custom md:flex-row md:py-5">
       <div className="relative flex w-full flex-col gap-4 md:flex-row md:items-center">
         <img
-          src={"Job-listings-with-filtering/src" + logo}
+          src={import.meta.env.BASE_URL + logo}
           alt={company}
           className="absolute -top-[55px] h-[50px] w-[50px] rounded-full md:relative md:top-0 md:h-[75px] md:w-[75px]"
         />

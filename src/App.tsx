@@ -51,7 +51,7 @@ export default function Home() {
       </Header>
       <main
         className={clsx(
-          "flex w-full flex-col items-center justify-center gap-10 bg-lightGrayish-background px-6 py-10 md:gap-6 md:px-10 lg:px-20",
+          "flex min-h-screen w-full flex-col items-center gap-10 bg-lightGrayish-background px-6 py-10 md:gap-6 md:px-10 lg:px-20",
           filters.length == 0 && "pt-20",
         )}
       >

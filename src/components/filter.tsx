@@ -28,10 +28,7 @@ export default function Filter({ filters, setFilters }: FilterProps) {
       </div>
       <button
         className="font-bold text-primary transition-all duration-300 hover:underline"
-        onClick={() => {
-          setFilters([]);
-          console.log("Clearing filters");
-        }}
+        onClick={() => setFilters([])}
       >
         Clear
       </button>
